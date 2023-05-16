@@ -1,0 +1,259 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+.elementor-widget-social-icons .elementor-grid {
+	text-align: right !important;
+}
+
+.elementor-widget-social-icons .elementor-grid a.elementor-social-icon {
+	background-color: #54595F !important;
+}
+
+
+.carousel-control {
+	width: 15% !important
+}
+
+.slider_content.right, a.qbutton, .qbutton.green {
+	z-index: 15 !important
+}
+
+.qbutton.green {
+    border-color: #303030;
+    background-color: #303030;
+    color: #fff;
+}
+
+.qbutton.green:hover {
+	color: #fff !important;	
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover {
+	color: #303030 !important; 
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover, .qbutton.green:hover {
+    border-color: #303030 !important;
+    background-color: transparent !important;
+}
+
+/*
+.qbutton.green {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #fff !important
+}
+*/
+
+#socialIcons {
+	text-align: right !important;
+}
+#socialIcons a.elementor-social-icon {
+	background-color: #54595F !important;
+	font-size: 14px !important;
+	width: 28px !important;
+	height: 28px !important;
+	margin-left: 5px
+}
+
+#socialIcons .elementor-social-icon i {
+	font-size: 14px
+}
+
+.contact_detail {
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+
+.contact_detail .contact_form h5 {
+	display: none
+}
+
+.q_team .q_team_text_inner .separator {
+	background-color: #af9776 !important
+}
+
+a:hover {
+	color: #af9776 !important	
+}
+
+.qbutton:hover {
+	background-color: #af9776 !important;
+	border-color: #af9776 !important
+}
+
+.two_columns_66_33>.column1 {
+	display: none
+}
+
+.two_columns_66_33>.column2 {
+	width: 100%
+}
+
+.portfolio_detail .info.portfolio_categories, .portfolio_detail .info.portfolio_custom_date {
+	display: none
+}
+
+.page-id-17057 .q_team.info_description_below_image {
+	padding-bottom: 15px !important
+}
+
+.page-id-14468 .testimonials_c_holder .testimonial_content_inner {
+	padding-top: 20px
+}
+
+.page-id-17043 a.qbutton:hover, .page-id-14093  a.qbutton:hover {
+	color: #fff !important
+}
+
+nav.vertical_menu>ul>li>a.current {
+	color: #22333B !important; 
+}
+
+.q_social_icon_holder:hover .simple_social {
+	color: #af9776 !important
+}
+
+#homeTestimonials .grid_section {
+	background: #fff !important
+}
+
+.testimonials_c_holder .flex-control-nav {
+	margin-top: 0 !important
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+#ourStory p, .single-post .blog_single p {
+	font-size: 16px;
+	font-weight: 500
+}
+
+p.wp-caption-text {
+	font-size: 14px !important;
+	font-weight: normal !important;
+	font-style: italic
+}
+
+#ourConcepts .wpb_wrapper {
+	text-align: center
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	margin-top: 1em
+}
+
+input.wpcf7-form-control {
+	margin-bottom: 1em !important
+}
+
+input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
+	background-color: #af9776 !important;
+	border-color: #af9776 !important;
+	color: #fff !important;
+}
+
+#wpcf7-f17647-p14093-o2 input, #wpcf7-f17647-p14093-o2 textarea, #wpcf7-f17647-p14093-o2 select {
+	background-color: #f7f7f7 !important
+}
+
+
+#wpcf7-f17647-p14093-o2 select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 7.5px),
+    calc(100% - 15px) calc(1em + 7.5px),
+    calc(100% - 2.5em);
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+/*
+#wpcf7-f17647-p14093-o2 select:focus {
+  background-image:
+    linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+*/
+
+#wpcf7-f17647-p14093-o2 select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+
+#wpcf7-f17647-p14093-o2 input[type='submit']:hover {
+	background-color: #af9776 !important
+}
+
+#ourStory h4 {
+	margin-bottom: 1em
+}
+
+
+.blog_holder.blog_small_image {
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+
+.blog_single {
+	padding-bottom: 100px;
+}
+
+.blog_holder.single_image_title_post article .itp_post_text .post_text_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+	
+}
+
+.blog_holder.single_image_title_post article .single_bottom_part {
+	display: none !important;
+}
+
+.single-post .title.title_size_small.position_left {
+	display:  none !important;
+	height: 0 !important
+}
+
+.testimonial_text_holder, .testimonial_text_holder p {
+	text-align: justify
+}
+
+#instagram-embed-0 {
+	float: left;
+	margin-right: 20px !important
+}
+
+#instagram-embed-1 {
+	float: right;
+	margin-left: 20px !important
+}
